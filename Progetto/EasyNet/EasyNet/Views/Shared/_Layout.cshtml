@@ -34,24 +34,25 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" style="border-radius:10px" placeholder="Utente" aria-label="Search">
-                        <button class="btn btn-outline-dark" type="submit"><i class="bi bi-search"></i></button>
+                        @*<button class="btn btn-outline-dark" type="submit"><i class="bi bi-search"></i></button>*@
                     </form>
                 </div>
             </div>
+            <partial name="_LoginPartial" />
         </nav>
 
     </header>
 
-    <div style="height: 100%;">
+    <div class="p-3" style="height: 100%;">
         <main role="main">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    @*<footer class="border-top footer text-muted">
         <div class="container">
         </div>
-    </footer>
+    </footer>*@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

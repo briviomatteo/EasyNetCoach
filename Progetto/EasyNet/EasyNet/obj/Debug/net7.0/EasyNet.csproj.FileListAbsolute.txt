@@ -1163,3 +1163,11 @@ C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\EasyNet\o
 C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\EasyNet\obj\Debug\net7.0\EasyNet.pdb
 C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\EasyNet\obj\Debug\net7.0\EasyNet.genruntimeconfig.cache
 C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\EasyNet\obj\Debug\net7.0\ref\EasyNet.dll
+C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\EasyNet\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\EasyNet\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\EasyNet\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\EasyNet\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\EasyNet\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\EasyNet\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\EasyNet\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\EasyNet\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll

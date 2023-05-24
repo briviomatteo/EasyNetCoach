@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\bootswatch.css"
     },
     {
+      "Id": "C:\\Users\\bmatt\\OneDrive\\Desktop\\Gruppo4Azienda-master\\Progetto\\EasyNet\\EasyNet\\wwwroot\\css\\signin.css",
+      "PackagePath": "staticwebassets\\css\\signin.css"
+    },
+    {
       "Id": "C:\\Users\\bmatt\\OneDrive\\Desktop\\Gruppo4Azienda-master\\Progetto\\EasyNet\\EasyNet\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
