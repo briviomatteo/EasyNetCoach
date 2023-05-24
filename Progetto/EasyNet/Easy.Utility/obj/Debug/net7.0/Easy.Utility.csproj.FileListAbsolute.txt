@@ -1,0 +1,12 @@
+C:\Users\FILIPPO\OneDrive\Informatica\PROGETTOAZIENDA\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\bin\Debug\net7.0\Easy.Utility.deps.json
+C:\Users\FILIPPO\OneDrive\Informatica\PROGETTOAZIENDA\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\bin\Debug\net7.0\Easy.Utility.dll
+C:\Users\FILIPPO\OneDrive\Informatica\PROGETTOAZIENDA\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\bin\Debug\net7.0\Easy.Utility.pdb
+C:\Users\FILIPPO\OneDrive\Informatica\PROGETTOAZIENDA\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.csproj.AssemblyReference.cache
+C:\Users\FILIPPO\OneDrive\Informatica\PROGETTOAZIENDA\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FILIPPO\OneDrive\Informatica\PROGETTOAZIENDA\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.AssemblyInfoInputs.cache
+C:\Users\FILIPPO\OneDrive\Informatica\PROGETTOAZIENDA\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.AssemblyInfo.cs
+C:\Users\FILIPPO\OneDrive\Informatica\PROGETTOAZIENDA\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.csproj.CoreCompileInputs.cache
+C:\Users\FILIPPO\OneDrive\Informatica\PROGETTOAZIENDA\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.dll
+C:\Users\FILIPPO\OneDrive\Informatica\PROGETTOAZIENDA\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\refint\Easy.Utility.dll
+C:\Users\FILIPPO\OneDrive\Informatica\PROGETTOAZIENDA\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.pdb
+C:\Users\FILIPPO\OneDrive\Informatica\PROGETTOAZIENDA\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\ref\Easy.Utility.dll
