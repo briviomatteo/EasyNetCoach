@@ -1,0 +1,45 @@
+﻿@{
+    ViewData["Title"] = "Creazione Post";
+}
+
+<link rel="stylesheet" href="~/css/Home.css" />
+<div class="section">
+    <div class="center">
+        <div class="text-center">
+            <h2>Creazione post</h2>
+        </div>
+        <hr>
+        <div class="row">
+            <div class=col-2>
+                <p>Contenuto multimediale:</p>
+            </div>
+            <div class="col">
+                <div class="form-floating mb-1">
+                    <input @*asp-for="Spettacolo.Multimediale"*@ type="file" id="uploadBox" name="file"
+                           class="form-cotrol bg-white" style="border-radius:10px; width:100%" accept=".jpg, .png" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <p>Didascalia:</p>
+            </div>
+            <div class="col">
+                <div class="form-floating mb-1">
+                    <input @*asp-for="Spettacolo.Descrizione"*@ class="form-control" style="border-radius:10px;" placeholder=".">
+                    <label @*asp-for="Spettacolo.Descrizione"*@ for="floatingPassword">Inserire qui...</label>
+                    <span @*asp-validation-for="Spettacolo.Descrizione"*@ class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <a type="button" asp-area="User" asp-controller="Home" asp-action="Index" class="btn btn-dark" style="width: 100%;"><i class="bi bi-arrow-return-left"></i></a>
+            </div>
+            <div class="col">
+                <button type="button" class="btn btn-dark" style="width: 100%;"><i class="bi bi-plus-square"></i></button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "a2xsmaMeu7VhjNswLtFI7uxa9WzsqWT8ZGoXuuNaoFs=",
+  "Hash": "HDpQq5xE8ydlxuOsbhoc2frdCvSogreNZnkaQS31LaA=",
   "Source": "EasyNet",
   "BasePath": "_content/EasyNet",
   "Mode": "Default",
@@ -1222,6 +1222,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\ViewProfilo.png"
+    },
+    {
+      "Identity": "C:\\Users\\bmatt\\OneDrive\\Desktop\\Gruppo4Azienda-master\\Progetto\\EasyNet\\EasyNet\\wwwroot\\js\\form.js",
+      "SourceId": "EasyNet",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\bmatt\\OneDrive\\Desktop\\Gruppo4Azienda-master\\Progetto\\EasyNet\\EasyNet\\wwwroot\\",
+      "BasePath": "_content/EasyNet",
+      "RelativePath": "js/form.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\form.js"
     },
     {
       "Identity": "C:\\Users\\bmatt\\OneDrive\\Desktop\\Gruppo4Azienda-master\\Progetto\\EasyNet\\EasyNet\\wwwroot\\js\\site.js",

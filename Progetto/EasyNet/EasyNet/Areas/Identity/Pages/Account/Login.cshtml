@@ -11,14 +11,13 @@
 <div class="container" id="container">
     <div class="form-container sign-up-container p-3">
         <form action="#">
-            <h1>Create Account</h1>
+            <h1>Crea un account</h1>
             <div class="social-container">
-                <a href="#" class="social"><ion-icon name="logo-facebook"></ion-icon></a>
-                <a href="#" class="social"><ion-icon name="logo-google"></ion-icon></a>
+                <a href="#" class="social"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="social"><i class="bi bi-google"></i></a>
             </div>
-            <span>or use your email for registration</span>
+            <span>o usa la tua mail per registrarti</span>
             <panel style="overflow: scroll; height: 70%;">
-
                 <input type="text" style="margin: 8px 0" placeholder="Nome" />
                 <input type="text" style="margin: 8px 0" placeholder="Cognome" />
                 <input type="text" style="margin: 8px 0" placeholder="Username" />
@@ -26,36 +25,35 @@
                 <input type="password" style="margin: 8px 0" placeholder="Password" />
                 <input type="date" style="margin: 8px 0" placeholder="DataNascita" />
                 <input type="file" style="margin: 8px 0" placeholder="Foto Profilo" />
-
             </panel>
             <button style="margin-bottom: 20px;">Sign Up</button>
         </form>
     </div>
     <div class="form-container sign-in-container">
         <form action="#">
-            <h1>Sign in</h1>
+            <h1>Accedi</h1>
             <div class="social-container">
-                <a href="#" class="social"><ion-icon name="logo-facebook"></ion-icon></a>
-                <a href="#" class="social"><ion-icon name="logo-google"></ion-icon></a>
+                <a href="#" class="social"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="social"><i class="bi bi-google"></i></a>
             </div>
-            <span>or use your account</span>
+            <span>o usa il tuo account</span>
             <input type="email" style="margin: 8px 0" placeholder="Email" />
             <input type="password" style="margin: 8px 0" placeholder="Password" />
-            <a href="#">Forgot your password?</a>
-            <button>Sign In</button>
+            <a href="#">Password dimenticata?</a>
+            <button>Accedi</button>
         </form>
     </div>
     <div class="overlay-container">
         <div class="overlay">
             <div class="overlay-panel overlay-left">
-                <h1>Welcome Back!</h1>
-                <p>To keep connected with us please login with your personal info</p>
-                <button class="ghost" id="signIn">Sign In</button>
+                <h1>Bentornato!</h1>
+                <p>Per restare connesso con noi effettua il login con i tuoi dati personali</p>
+                <button class="ghost" id="signIn">Accedi</button>
             </div>
             <div class="overlay-panel overlay-right">
-                <h1>Welcome To NomeSito</h1>
-                <p>Enter your personal details and start journey with us</p>
-                <button class="ghost" id="signUp">Sign Up</button>
+                <h1>Benvenuto in  NomeSito</h1>
+                <p>Inserisci i tuoi dati personali e inizia il tuo viaggio con noi</p>
+                <button class="ghost" id="signUp">Registrati</button>
             </div>
         </div>
     </div>
@@ -64,11 +62,9 @@
     const signUpButton = document.getElementById('signUp');
     const signInButton = document.getElementById('signIn');
     const container = document.getElementById('container');
-
     signUpButton.addEventListener('click', () => {
         container.classList.add("right-panel-active");
     });
-
     signInButton.addEventListener('click', () => {
         container.classList.remove("right-panel-active");
     });

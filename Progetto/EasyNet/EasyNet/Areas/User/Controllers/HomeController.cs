@@ -18,8 +18,11 @@ namespace EasyNet.Controllers
         {
             return View();
         }
-
-        public IActionResult Privacy()
+        public IActionResult CreaPost()
+        {
+            return View();
+        }
+        public IActionResult BotTelegram()
         {
             return View();
         }

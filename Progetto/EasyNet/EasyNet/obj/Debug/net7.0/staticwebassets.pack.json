@@ -41,6 +41,10 @@
       "PackagePath": "staticwebassets\\img\\ViewProfilo.png"
     },
     {
+      "Id": "C:\\Users\\bmatt\\OneDrive\\Desktop\\Gruppo4Azienda-master\\Progetto\\EasyNet\\EasyNet\\wwwroot\\js\\form.js",
+      "PackagePath": "staticwebassets\\js\\form.js"
+    },
+    {
       "Id": "C:\\Users\\bmatt\\OneDrive\\Desktop\\Gruppo4Azienda-master\\Progetto\\EasyNet\\EasyNet\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
