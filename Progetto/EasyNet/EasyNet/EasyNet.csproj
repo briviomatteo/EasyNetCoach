@@ -4,6 +4,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>95958a77-cef1-41cd-961c-3b9437a9f1e9</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -25,6 +26,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Easy.DataAccess\Easy.DataAccess.csproj" />
     <ProjectReference Include="..\Easy.Models\Easy.Models.csproj" />
+    <ProjectReference Include="..\Easy.Utility\Easy.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>

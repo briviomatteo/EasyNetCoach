@@ -9,37 +9,17 @@
 <link rel="stylesheet" href="~/css/site.css" />
 
 <div class="container" id="container">
-    <div class="form-container sign-up-container p-3">
-        <form action="#">
-            <h1>Crea un account</h1>
-            <div class="social-container">
-                <a href="#" class="social"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="social"><i class="bi bi-google"></i></a>
-            </div>
-            <span>o usa la tua mail per registrarti</span>
-            <panel style="overflow: scroll; height: 70%;">
-                <input type="text" style="margin: 8px 0" placeholder="Nome" />
-                <input type="text" style="margin: 8px 0" placeholder="Cognome" />
-                <input type="text" style="margin: 8px 0" placeholder="Username" />
-                <input type="email" style="margin: 8px 0" placeholder="Email" />
-                <input type="password" style="margin: 8px 0" placeholder="Password" />
-                <input type="date" style="margin: 8px 0" placeholder="DataNascita" />
-                <input type="file" style="margin: 8px 0" placeholder="Foto Profilo" />
-            </panel>
-            <button style="margin-bottom: 20px;">Sign Up</button>
-        </form>
-    </div>
     <div class="form-container sign-in-container">
-        <form action="#">
+        <form id="account" method="post">
             <h1>Accedi</h1>
             <div class="social-container">
                 <a href="#" class="social"><i class="bi bi-facebook"></i></a>
                 <a href="#" class="social"><i class="bi bi-google"></i></a>
             </div>
-            <span>o usa il tuo account</span>
-            <input type="email" style="margin: 8px 0" placeholder="Email" />
-            <input type="password" style="margin: 8px 0" placeholder="Password" />
-            <a href="#">Password dimenticata?</a>
+            <span>Accedi con il tuo account</span>
+            <input asp-for="Input.Email" type="email" style="margin: 8px 0" placeholder="Email" />
+            <input asp-for="Input.Password" type="password" style="margin: 8px 0" placeholder="Password" />
+            <a id="forgot-password" asp-page="./ForgotPassword">Password dimeticata?</a>            
             <button>Accedi</button>
         </form>
     </div>
@@ -51,24 +31,14 @@
                 <button class="ghost" id="signIn">Accedi</button>
             </div>
             <div class="overlay-panel overlay-right">
-                <h1>Benvenuto in  NomeSito</h1>
-                <p>Inserisci i tuoi dati personali e inizia il tuo viaggio con noi</p>
-                <button class="ghost" id="signUp">Registrati</button>
+                <h1>Benvenuto in EsyNet</h1>
+                <p>Non hai ancora un account? Creane subito uno:</p>
+                <a id="forgot-password" asp-page="./Register">Registrati</a>
             </div>
         </div>
     </div>
 </div>
-<script>
-    const signUpButton = document.getElementById('signUp');
-    const signInButton = document.getElementById('signIn');
-    const container = document.getElementById('container');
-    signUpButton.addEventListener('click', () => {
-        container.classList.add("right-panel-active");
-    });
-    signInButton.addEventListener('click', () => {
-        container.classList.remove("right-panel-active");
-    });
-</script>
+
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

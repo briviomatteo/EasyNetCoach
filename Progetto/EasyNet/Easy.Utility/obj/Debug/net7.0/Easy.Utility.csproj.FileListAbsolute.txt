@@ -22,3 +22,31 @@ C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Util
 C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\refint\Easy.Utility.dll
 C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.pdb
 C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\ref\Easy.Utility.dll
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\bin\Debug\net7.0\Easy.Utility.deps.json
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\bin\Debug\net7.0\Easy.Utility.dll
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\bin\Debug\net7.0\Easy.Utility.pdb
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.csproj.AssemblyReference.cache
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.AssemblyInfoInputs.cache
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.AssemblyInfo.cs
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.csproj.CoreCompileInputs.cache
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.dll
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\refint\Easy.Utility.dll
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.pdb
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\ref\Easy.Utility.dll
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.csproj.AssemblyReference.cache
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.AssemblyInfoInputs.cache
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.AssemblyInfo.cs
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.csproj.CoreCompileInputs.cache
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.dll
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\refint\Easy.Utility.dll
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.pdb
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\bin\Debug\net7.0\Easy.Utility.deps.json
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\bin\Debug\net7.0\Easy.Utility.runtimeconfig.json
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\bin\Debug\net7.0\Easy.Utility.dll
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\bin\Debug\net7.0\Easy.Utility.pdb
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.genruntimeconfig.cache
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\ref\Easy.Utility.dll
+C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\bin\Debug\net7.0\Easy.Utility.runtimeconfig.json
+C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Utility\obj\Debug\net7.0\Easy.Utility.genruntimeconfig.cache

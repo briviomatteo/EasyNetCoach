@@ -15,7 +15,7 @@ public partial class Post
 
     public string Descrizione { get; set; } = null!;
 
-    public int? FkUtente { get; set; }
+    public string FkUtente { get; set; } = null!;
     [ForeignKey(nameof(FkUtente))]
     public Utente Utente { get; set; } = null!;
 }

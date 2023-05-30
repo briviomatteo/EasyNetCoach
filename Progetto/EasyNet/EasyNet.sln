@@ -6,17 +6,18 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyNet", "EasyNet\EasyNet.csproj", "{F963E50D-889A-44F1-A737-DB9EEA7B2C09}"
 	ProjectSection(ProjectDependencies) = postProject
 		{1BF59D69-C988-4893-A732-3270324CCD0D} = {1BF59D69-C988-4893-A732-3270324CCD0D}
+		{C975D3A6-0E8C-487F-8CF1-78F5C5E2B5E7} = {C975D3A6-0E8C-487F-8CF1-78F5C5E2B5E7}
 		{CF54A223-F3FA-471A-B925-5B7C3F07B5CE} = {CF54A223-F3FA-471A-B925-5B7C3F07B5CE}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easy.DataAccess", "Easy.DataAccess\Easy.DataAccess.csproj", "{1BF59D69-C988-4893-A732-3270324CCD0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easy.DataAccess", "Easy.DataAccess\Easy.DataAccess.csproj", "{1BF59D69-C988-4893-A732-3270324CCD0D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{CF54A223-F3FA-471A-B925-5B7C3F07B5CE} = {CF54A223-F3FA-471A-B925-5B7C3F07B5CE}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easy.Models", "Easy.Models\Easy.Models.csproj", "{CF54A223-F3FA-471A-B925-5B7C3F07B5CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easy.Models", "Easy.Models\Easy.Models.csproj", "{CF54A223-F3FA-471A-B925-5B7C3F07B5CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easy.Utility", "Easy.Utility\Easy.Utility.csproj", "{C975D3A6-0E8C-487F-8CF1-78F5C5E2B5E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Easy.Utility", "Easy.Utility\Easy.Utility.csproj", "{C975D3A6-0E8C-487F-8CF1-78F5C5E2B5E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

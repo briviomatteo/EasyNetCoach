@@ -46,3 +46,27 @@ C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Mode
 C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\refint\Easy.Models.dll
 C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\Easy.Models.pdb
 C:\Users\bmatt\OneDrive\Desktop\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\ref\Easy.Models.dll
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\bin\Debug\net7.0\Easy.Models.deps.json
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\bin\Debug\net7.0\Easy.Models.dll
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\bin\Debug\net7.0\Easy.Models.pdb
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\Easy.Models.csproj.AssemblyReference.cache
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\Easy.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\Easy.Models.AssemblyInfoInputs.cache
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\Easy.Models.AssemblyInfo.cs
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\Easy.Models.csproj.CoreCompileInputs.cache
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\Easy.Models.dll
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\refint\Easy.Models.dll
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\Easy.Models.pdb
+C:\Users\cmatt\Downloads\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\ref\Easy.Models.dll
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\bin\Debug\net7.0\Easy.Models.deps.json
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\bin\Debug\net7.0\Easy.Models.dll
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\bin\Debug\net7.0\Easy.Models.pdb
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\Easy.Models.csproj.AssemblyReference.cache
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\Easy.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\Easy.Models.AssemblyInfoInputs.cache
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\Easy.Models.AssemblyInfo.cs
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\Easy.Models.csproj.CoreCompileInputs.cache
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\Easy.Models.dll
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\refint\Easy.Models.dll
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\Easy.Models.pdb
+C:\Users\MATTEOCASIRAGHI5IA_S\Downloads\Gruppo4Azienda-master (1)\Gruppo4Azienda-master\Gruppo4Azienda-master\Progetto\EasyNet\Easy.Models\obj\Debug\net7.0\ref\Easy.Models.dll

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -6,12 +7,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EasyNet.Models;
 
-public partial class Utente
+public  class Utente:IdentityUser
 {
-    [Key]
-    public int IdUtente { get; set; }
 
-    public string Username { get; set; } = null!;
+    public string CodiceFiscale { get; set; } = null!;
+
+    public string NomeProfilo { get; set; } = null!;
 
     public string Nome { get; set; } = null!;
 
@@ -25,10 +26,10 @@ public partial class Utente
     public DateTime? DataNascita { get; set; } = null!;
 
     public string FotoProfilo { get; set; } = null!;
-    public int FkPost { get;set; }
+    public int? FkPost { get;set; }
     [ValidateNever]
     [ForeignKey(nameof(FkPost))]
-    public Post post { get; set; } = null!;
+    public Post Post { get; set; } = null!;
 
     public virtual ICollection<Commento> Commentos { get; set; } = new List<Commento>();
 }

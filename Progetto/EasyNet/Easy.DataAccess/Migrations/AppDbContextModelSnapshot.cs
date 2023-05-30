@@ -30,11 +30,12 @@ namespace Easy.DataAccess.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdCommento"));
 
-                    b.Property<int>("FkPost")
+                    b.Property<int?>("FkPost")
                         .HasColumnType("int");
 
-                    b.Property<int?>("FkUtente")
-                        .HasColumnType("int");
+                    b.Property<string>("FkUtente")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Testo")
                         .IsRequired()
@@ -61,8 +62,9 @@ namespace Easy.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("FkUtente")
-                        .HasColumnType("int");
+                    b.Property<string>("FkUtente")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Foto")
                         .HasColumnType("nvarchar(max)");
@@ -72,55 +74,6 @@ namespace Easy.DataAccess.Migrations
                     b.HasIndex("FkUtente");
 
                     b.ToTable("Posts");
-                });
-
-            modelBuilder.Entity("EasyNet.Models.Utente", b =>
-                {
-                    b.Property<int>("IdUtente")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("IdUtente"));
-
-                    b.Property<string>("Cognome")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime?>("DataNascita")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("FkPost")
-                        .HasColumnType("int");
-
-                    b.Property<string>("FotoProfilo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Mail")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Nome")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Password")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Telefono")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Username")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("IdUtente");
-
-                    b.HasIndex("FkPost");
-
-                    b.ToTable("Utentes");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -187,6 +140,10 @@ namespace Easy.DataAccess.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Email")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -238,6 +195,10 @@ namespace Easy.DataAccess.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("IdentityUser");
+
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -268,12 +229,10 @@ namespace Easy.DataAccess.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderKey")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ProviderDisplayName")
                         .HasColumnType("nvarchar(max)");
@@ -310,12 +269,10 @@ namespace Easy.DataAccess.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("LoginProvider")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
-                        .HasMaxLength(128)
-                        .HasColumnType("nvarchar(128)");
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Value")
                         .HasColumnType("nvarchar(max)");
@@ -325,41 +282,79 @@ namespace Easy.DataAccess.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("EasyNet.Models.Utente", b =>
+                {
+                    b.HasBaseType("Microsoft.AspNetCore.Identity.IdentityUser");
+
+                    b.Property<string>("CodiceFiscale")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Cognome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("DataNascita")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("FkPost")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FotoProfilo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Mail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NomeProfilo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Telefono")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasIndex("FkPost");
+
+                    b.HasDiscriminator().HasValue("Utente");
+                });
+
             modelBuilder.Entity("EasyNet.Models.Commento", b =>
                 {
                     b.HasOne("EasyNet.Models.Post", "Post")
                         .WithMany()
-                        .HasForeignKey("FkPost")
+                        .HasForeignKey("FkPost");
+
+                    b.HasOne("EasyNet.Models.Utente", "Utente")
+                        .WithMany("Commentos")
+                        .HasForeignKey("FkUtente")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("EasyNet.Models.Utente", "utente")
-                        .WithMany("Commentos")
-                        .HasForeignKey("FkUtente");
-
                     b.Navigation("Post");
 
-                    b.Navigation("utente");
+                    b.Navigation("Utente");
                 });
 
             modelBuilder.Entity("EasyNet.Models.Post", b =>
                 {
                     b.HasOne("EasyNet.Models.Utente", "Utente")
                         .WithMany()
-                        .HasForeignKey("FkUtente");
-
-                    b.Navigation("Utente");
-                });
-
-            modelBuilder.Entity("EasyNet.Models.Utente", b =>
-                {
-                    b.HasOne("EasyNet.Models.Post", "post")
-                        .WithMany()
-                        .HasForeignKey("FkPost")
+                        .HasForeignKey("FkUtente")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("post");
+                    b.Navigation("Utente");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -411,6 +406,15 @@ namespace Easy.DataAccess.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("EasyNet.Models.Utente", b =>
+                {
+                    b.HasOne("EasyNet.Models.Post", "Post")
+                        .WithMany()
+                        .HasForeignKey("FkPost");
+
+                    b.Navigation("Post");
                 });
 
             modelBuilder.Entity("EasyNet.Models.Utente", b =>

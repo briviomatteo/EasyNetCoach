@@ -14,7 +14,7 @@ namespace Easy.Models
     {
         [Key]
         public int IdLike { get; set; }
-        public int FKUtente { get; set; }
+        public string FKUtente { get; set; } = null!;
         [ValidateNever]
         [ForeignKey(nameof(FKUtente))]
         public Utente Utente { get; set; } = null!;

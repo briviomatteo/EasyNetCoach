@@ -3,7 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using EasyNet.DataAccess.Repository.IRepository;
 using EasyNet.DataAccess.Repository;
-
+using Microsoft.AspNetCore.Identity.UI.Services;
+using Easy.Utility;
 namespace EasyNet
 {
     public class Program
@@ -16,23 +17,24 @@ namespace EasyNet
             builder.Services.AddControllersWithViews();
             builder.Services.AddRazorPages();
             builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+            builder.Services.Configure<EmailSenderoptions>(builder.Configuration.GetSection("EmailSender"));
             //per impostare la verifica dell'account prima di poter effettuare il login
             //occorre inserire come argomento del metodo AddDefaultIdentity l'espressione
             //options => options.SignIn.RequireConfirmedAccount = true
-            builder.Services.AddDefaultIdentity<IdentityUser>()
-                .AddEntityFrameworkStores<AppDbContext>();
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true).AddDefaultTokenProviders()
+      .AddEntityFrameworkStores<AppDbContext>().AddDefaultUI();
 
 
             //builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<AppDbContext>();
             //builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
             //UnitOfWork si occupa della gestione di tutti i repository
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-
+            builder.Services.AddTransient<IEmailSender, EmailSender>();
             //serve per gestire i casi in cui l'utente prova ad accedere a funzioni che richiedono autenticazione e/o autorizzazione
             //https://learn.microsoft.com/en-us/answers/questions/963681/asp-net-mvc-how-unauthorize-access-redirect-user-t
             builder.Services.ConfigureApplicationCookie(options =>
             {
+
                 // Cookie settings
                 options.Cookie.HttpOnly = true;
                 options.ExpireTimeSpan = TimeSpan.FromMinutes(5);
@@ -42,7 +44,7 @@ namespace EasyNet
                 options.AccessDeniedPath = "/Identity/Account/AccessDenied";
                 options.SlidingExpiration = true;
             });
-
+            builder.Services.AddTransient<IEmailSender, EmailSender>();
             var app = builder.Build();
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

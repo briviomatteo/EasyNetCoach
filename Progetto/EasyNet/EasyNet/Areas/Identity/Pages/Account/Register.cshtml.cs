@@ -18,7 +18,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-
+using EasyNet.Models;
+using Easy.Utility;
 namespace EasyNet.Areas.Identity.Pages.Account
 {
     public class RegisterModel : PageModel
@@ -88,6 +89,8 @@ namespace EasyNet.Areas.Identity.Pages.Account
             [DataType(DataType.Password)]
             [Display(Name = "Password")]
             public string Password { get; set; }
+            
+
 
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
@@ -97,6 +100,11 @@ namespace EasyNet.Areas.Identity.Pages.Account
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
+            public string Nome { get; set; } = null!;
+            public string Cognome { get; set; } = null!;
+            public string NomeProfilo { get; set; } = null!;
+            public DateTime? DataNascita { get; set; }
+            public string FotoProfilo { get; set; }= null!;
         }
 
 
@@ -116,6 +124,11 @@ namespace EasyNet.Areas.Identity.Pages.Account
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
+                user.Nome=Input.Nome;
+                user.Cognome=Input.Cognome;
+                user.NomeProfilo = Input.NomeProfilo;
+                user.DataNascita = Input.DataNascita;
+                user.FotoProfilo = Input.FotoProfilo;
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
@@ -154,11 +167,11 @@ namespace EasyNet.Areas.Identity.Pages.Account
             return Page();
         }
 
-        private IdentityUser CreateUser()
+        private Utente CreateUser()
         {
             try
             {
-                return Activator.CreateInstance<IdentityUser>();
+                return Activator.CreateInstance<Utente>();
             }
             catch
             {
